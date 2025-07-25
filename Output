@@ -1,0 +1,50 @@
+
+---
+
+ 📊 Sample Output for Financial Analytics
+
+---
+
+ ✅ Sample Dataset (Top 5 Rows)
+
+| Company        | Sector     | MarketCap | Revenue | Profit | QuarterlySales | Employees |
+| -------------- | ---------- | --------- | ------- | ------ | -------------- | --------- |
+| Alpha Corp     | Technology | 250.0     | 120.0   | 25.0   | 30.0           | 20000     |
+| Beta Ltd       | Finance    | 180.0     | 90.0    | 20.0   | 24.0           | 15000     |
+| Gamma Inc      | Healthcare | 200.0     | 110.0   | 22.0   | 28.0           | 12000     |
+| Delta Partners | Retail     | 130.0     | 70.0    | 10.0   | 20.0           | 18000     |
+| Epsilon Tech   | Technology | 300.0     | 160.0   | 35.0   | 40.0           | 25000     |
+
+---
+
+ 📈 Descriptive Statistics
+
+```text
+         MarketCap     Revenue      Profit  QuarterlySales     Employees
+count     50.000000   50.000000   50.000000       50.000000     50.000000
+mean     165.234000   85.120000   17.543000       22.560000  17400.000000
+std       55.873000   33.218000    6.234000        8.123000   3000.000000
+min       80.000000   40.000000    5.000000       10.000000  12000.000000
+max      300.000000  160.000000   35.000000       40.000000  25000.000000
+```
+
+---
+
+ 🔥 Correlation Matrix Heatmap
+
+![Heatmap](https://i.imgur.com/qUzBFnc.png)
+*Insight: Strong positive correlation between Revenue and Profit.*
+
+---
+
+ 🏆 Top 10 Companies by Market Cap
+
+![Market Cap Bar Plot](https://i.imgur.com/wbRkT3p.png)
+*Epsilon Tech and Alpha Corp have the highest market capitalization.*
+
+---
+
+ 💵 Revenue vs Profit Scatter Plot (Colored by Sector)
+
+![Revenue vs Profit](https://i.imgur.com/VaHO81M.png)
+*Observation: Technology and Healthcare companies tend to have higher profitability.*
